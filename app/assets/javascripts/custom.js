@@ -36,3 +36,7 @@ function hideAlertPartial() {
 function showAlertPartial() {
   $(".alert").show();
 }
+
+function callCareGiver() {
+  alert("Calling Care Giver")
+}
