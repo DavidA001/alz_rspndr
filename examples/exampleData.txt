@@ -1,0 +1,92 @@
+Steps:
+{
+    "activities-log-steps":[
+        {"dateTime":"2014-09-05","value":1433}
+    ],
+    "activities-log-steps-intraday":{
+        "datasetInterval":1,
+        "dataset":[
+            {"time":"00:00:00","value":0},
+            {"time":"00:01:00","value":0},
+            {"time":"00:02:00","value":0},
+            {"time":"00:03:00","value":0},
+            {"time":"00:04:00","value":0},
+            {"time":"00:05:00","value":287},
+            {"time":"00:06:00","value":287},
+            {"time":"00:07:00","value":287},
+            {"time":"00:08:00","value":287},
+            {"time":"00:09:00","value":287},
+            {"time":"00:10:00","value":0},
+            {"time":"00:11:00","value":0},
+
+        ]
+    }
+}
+
+Heart rate:
+
+{
+    "activities-heart": [
+        {
+            "customHeartRateZones": [],
+            "dateTime": "today",
+            "heartRateZones": [
+                {
+                    "caloriesOut": 2.3246,
+                    "max": 94,
+                    "min": 30,
+                    "minutes": 2,
+                    "name": "Out of Range"
+                },
+                {
+                    "caloriesOut": 0,
+                    "max": 132,
+                    "min": 94,
+                    "minutes": 0,
+                    "name": "Fat Burn"
+                },
+                {
+                    "caloriesOut": 0,
+                    "max": 160,
+                    "min": 132,
+                    "minutes": 0,
+                    "name": "Cardio"
+                },
+                {
+                    "caloriesOut": 0,
+                    "max": 220,
+                    "min": 160,
+                    "minutes": 0,
+                    "name": "Peak"
+                }
+            ],
+            "value": "64.2"
+        }
+    ],
+    "activities-heart-intraday": {
+        "dataset": [
+            {
+                "time": "00:00:00",
+                "value": 64
+            },
+            {
+                "time": "00:00:10",
+                "value": 63
+            },
+            {
+                "time": "00:00:20",
+                "value": 64
+            },
+            {
+                "time": "00:00:30",
+                "value": 65
+            },
+            {
+                "time": "00:00:45",
+                "value": 65
+            }
+        ],
+        "datasetInterval": 1,
+        "datasetType": "second"
+    }
+}
