@@ -9,6 +9,8 @@ class FitbitPoller
 
     trigger.current_heart_rate = current_heart_rate
     trigger.current_steps = current_steps
+
+    trigger
   end
 
   def get_data

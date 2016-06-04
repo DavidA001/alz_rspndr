@@ -4,6 +4,14 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def index
-    FitbitPoller.new.poll
+    trigger = FitbitPoller.new.poll
+
+    if trigger.current_is_over_baseline?
+      send_response
+    end
+  end
+
+  def send_response
+    # Response.new.call
   end
 end
